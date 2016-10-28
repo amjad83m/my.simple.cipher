@@ -1,0 +1,66 @@
+html, body {
+    box-sizing: border-box;
+    min-width: 320px;   
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#encryption-div, #decryption-div {
+    width: 85%;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #DFE2E2;
+    border-radius: 5px;
+    outline: none;
+}
+
+#original-ta, #encrypted-ta {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    cursor: pointer;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: darkblue;
+    background-color: #96E7FF;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    background-color: #2AC3C1;
+    color: white;
+}
+
+@media screen and (min-width: 1200px) {
+    #wrapper {
+        width: 1200px;
+    }
+}
+
+header {
+    background-color: #DFE2E2;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 0px;
+    color: darkblue;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}

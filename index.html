@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My Simple Text Encyptor</title>
+        <meta name="description" content="An implementation of a simple shifting cipher - Amjad Muhammad">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="author" content="Amjad Muhammad">
+        <meta name="viewport" content="width=screen-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Oswald%7CMontserrat" rel="stylesheet">
+    </head>
+    
+    <div id="wrapper">
+        <header>
+        <h1>My Simple Text Encryptor / Decryptor</h1>
+        </header>
+        <body>
+            <div id="encryption-div">
+                <form>
+                    <textarea id="original-ta" placeholder="Text to be encrypted goes here. Please note that numbers and punctuation marks will be ignored!"></textarea><br>
+                    <button type="button" onclick="performEncryption()">Encrypt</button>
+                    <button type="button" onclick="resetTextArea('original-ta')">Reset</button>
+                </form>
+            </div>
+            
+            <div id="decryption-div">
+                <form>
+                    <textarea id="encrypted-ta" placeholder="Text to be decrypted goes here. Please note that numbers and punctuation marks will be ignored!"></textarea><br>
+                    <button type="button" onclick="performDecryption()">Decrypt</button>
+                    <button type="button" onclick="resetTextArea('encrypted-ta')">Reset</button>
+                </form>
+            </div>
+            <script type="text/javascript" src="scripts.js"></script>
+        </body>
+    </div>
+</html>
