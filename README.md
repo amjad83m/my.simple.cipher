@@ -21,7 +21,7 @@ This is the initial version.
 * Using multiple encryption algorithms.
 * Improvements to the UI.
 
-## Live Version
-You can test the project [here](https://amjad83m.github.io/my.simple.cipher/).
+## Live Demo
+You can test a live version [here](https://amjad83m.github.io/my.simple.cipher/).
 ## Credits
 Code and design by [Amjad Muhammad](https://github.com/amjad83m). 
