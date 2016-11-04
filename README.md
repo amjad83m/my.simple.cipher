@@ -16,7 +16,7 @@ is converted back to its original state and displayed in the same text area.
 * 28/10/2016
 This is the initial version.
 
-## Future Possible Updates
+## Planned Updates
 * Implementing an encryption key entered by the user.
 * Using multiple encryption algorithms.
 * Improvements to the UI.
