@@ -13,6 +13,7 @@ and displayed in the same text area.
 is converted back to its original state and displayed in the same text area.
 
 ## History
+* 28/10/2016
 This is the initial version. No modifications made yet.
 
 ## Future Possible Updates
