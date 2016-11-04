@@ -14,7 +14,7 @@ is converted back to its original state and displayed in the same text area.
 
 ## History
 * 28/10/2016
-This is the initial version. No modifications made yet.
+This is the initial version.
 
 ## Future Possible Updates
 * Implementing an encryption key entered by the user.
